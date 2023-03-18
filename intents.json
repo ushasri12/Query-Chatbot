@@ -1,0 +1,165 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hii","how you doing"],
+         "responses": ["Hello", "Hello! Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "ask",
+         "patterns": ["How are you"],
+         "responses": ["I am good. What about you?","I am fine"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "sorry",
+         "patterns": ["sorry.","I am sorry"],
+         "responses": ["Its alright","Its OK, never mind"]
+        },
+        {"tag": "name",
+         "patterns": ["what's your name?", "what are you called?", "who are you?","what is your name?"],
+         "responses": ["My name is Aideen", "I'm Aideen", "Aideen"]
+        },
+        {"tag": "age",
+        "patterns": ["how old are you?", "when is your birthday?", "when was you born?"],
+        "responses": ["I am 6 years old", "I was born in 2016", "My birthday is July 7th and I was born in 2016", "07/07/2016","I'm a computer program dude.Seriously you are asking me this?"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","you are awesome","you are very helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through IIT Bhilai queries", "I can help you regarding IIT Bhilai queries", "Offering support for IIT Bhilai queries"],
+         "context": [""]
+        },
+        {"tag": "carry",
+         "patterns": ["what should you carry to the the hostel?","things needed in the hostel","what things should I bring to college","things required in the hostel"],
+         "responses": ["Here is the google doc link which includes all the items you need in the hostel. https://docs.google.com/spreadsheets/d/1sRfCLQXmCLoOLp3r3JpCiAglpBiAAfEYmwXI0DoGCJA/edit?usp=drivesdk"],
+         "context": [""]
+        },
+        {"tag": "migration",
+         "patterns": ["Is migration certificate required during Physical verification? "],
+         "responses": ["Yes","yes it is required","Yes you need to submit it"],
+         "context": [""]
+        },
+        {"tag": "updates",
+         "patterns": ["where to get SMP updates","SMP updates are seen where?","is there any website usefull for new students"],
+         "responses": ["Polaris website of IIT Bhilai", "there is a website - Polaris which tells all the updates about IIT Bhilai"],
+         "context": [""]
+        },
+        {"tag": "SMP",
+         "patterns": ["what is SMP?", "can you tell me more abput SMP?"],
+         "responses": ["SMP is Student Mentorship Program. It helps the new students during the admission process and the orientation, Students can ask them any queries they face."],
+         "context": [""]
+        },
+        {"tag": "documents",
+         "patterns": ["what are the documents required?","list all the required documents","can you tell me the documents needed?"],
+         "responses": ["documents present in the checklist of registration form . no extra doc will be needed than mentioned"],
+         "context": [""]
+        },
+        {"tag": "payment",
+         "patterns": ["what is the payment method","payment mode","how to do the payment?"],
+         "responses": [" SBI Chalan,cheque,no demand draft. Should be paid at SBI Collect Link for fee payment documents: https://polaris.iitbhilai.ac.in/documents.php"],
+         "context": [""]
+        },
+        {"tag": "Loan",
+         "patterns": ["what is the loan facility","How can I get a loan","tell about the loan facilities?"],
+         "responses": ["Loan is pre-sanctioned and you need to only complete the document formalities to avail the loan facility. The details and documents are in the link : https://polaris.iitbhilai.ac.in/documents.php"],
+         "context": [""]
+        },
+        {"tag": "queries",
+         "patterns": ["whom to contact regarding admission queries","who can solve my admission regarding queries","who should I contact for help?"],
+         "responses": ["There are mentors who can help you regarding all the queries. You can contact them through Polaris website."],
+         "context": [""]
+        },
+        {"tag": "date",
+         "patterns": ["wheb should I report to the campus","when do I need to reach the campus","what is the date to come to the campus","what is the date of physical reporting?"],
+         "responses": ["you should reach the campus on oct 27th between 6:30 to 8:30 at respective hostel","27th Oct from 6:30-8:30. It is mandatory for all"],
+         "context": [""]
+        },
+        {"tag": "parents",
+         "patterns": ["can parents attend the orientation?"],
+         "responses": ["No, parents can only stay during the registration.No accommodation will be provided to the parents they can stay in nearby hotels."],
+         "context": [""]
+        },
+        {"tag": "permanent campus",
+         "patterns": ["when will the permament campus be made?","when will we shift to the permanent campus","will we shift to the permanent campus?"],
+         "responses": ["Information regarding permanent campus is not yet known"],
+         "context": [""]
+        },
+        {"tag": "departments",
+         "patterns": ["what are the departments at IIT Bhilai","tell me about departments at IIT Bhilai","what are the departments here?"],
+         "responses": ["B.Tech, M.Tech, Ph.D"],
+         "context": [""]
+        },
+
+        {"tag": "branch change",
+         "patterns": ["How to change branch","what is the process for branch change","How can I change my branch"],
+         "responses": ["After the first semester you are given an opportunity to change your branch based on your GPA. Try to keep it above 9."],
+         "context": [""]
+        },
+
+        {"tag": "Hostels",
+         "patterns": ["Tell me about the hostels","what are the hostels in the campus?","what are the facilitues in the hostels"],
+         "responses": ["Castle Dio(girls),Castle Ena(boys), Castle Tria(boys) are the hostels.All hostels are equipped with some sport facilities, recreation rooms, TV room, washing machines, and dining etc. Hostels are rigged with Wi-Fi and LAN access.  ","There are three hostels : Castle Dio(girls),Castle Ena(boys), Castle Tria(boys). All hostels are equipped with some sport facilities, recreation rooms, TV room, washing machines, and dining etc. Hostels are rigged with Wi-Fi and LAN access. "],
+         "context": [""]
+        },
+        {"tag": "ragging",
+         "patterns": ["what are the measures taken against ragging","Do students face ragging","what if I face ragging?","are there strict rules against ragging?"],
+         "responses": ["IIT Bhilai is a ragging free campus, there is a policy against ragging and every students signs a letter to the effect that they will not participate in ragging. Everybody is vigilant to prevent any attempt of ragging. A reported case of ragging is dealt with strictly."],
+         "context": [""]
+        },
+
+        {"tag": "faculties",
+         "patterns": ["what are the faculties in the departments","tell me about the faculties","faculties"],
+         "responses": ["Link of all the faculties: https://www.iitbhilai.ac.in/index.php?pid=fac_department"],
+         "context": [""]
+        },
+
+        {"tag": "fractal system",
+         "patterns": ["What is a fractal system?","explain the fractal system","elaborate he fractal system","tell me the educational system here"],
+         "responses": ["Each semester is divided into 6 parts (known as fractals). Exams will be conducted at the end of 2nd, 4th and 6th fractals, namely Tierce 1, 2 and 3 respectively. For more details, please go through the Brochure 2020"],
+         "context": [""]
+        },
+        {"tag": "safety",
+        "patterns": ["what are the measures taken for safety","safety for females","Students safety in college","are there strict rules for safety?"],
+        "responses": ["IIT Bhilai is a safe campus for both boys and girls, there is a tight security and every student needs to inform the college about their wherabouts if leaving the college.The numbers of students will be taken and if they are not in the college by stipulated time they will be called by the security. Everybody is vigilant and the security is hard working."],
+        "context": [""]
+       },
+       {"tag": "scholarship",
+       "patterns": ["what are the scholarships available for students","scholarships for students","student scholarships","how can i get a scholarship"],
+       "responses": ["IIT Bhilai Institute supports several scholarships, fellowships and various forms of assistantships for deserving students.They are Merit-cum-Means (MCM) Scholarship, Institute SC/ST Scholarship, Institute Free Studentship Scholarship, Institute Fellowship to Postgraduate Students and for Further Details refer Academic Brochure."],
+       "context": [""]
+        },
+        {"tag": "internet",
+        "patterns": ["How is the internet connectivity in IIT Bhilai?","Internet connectivity in college","Internet connectivity","Internet connection"],
+        "responses": ["IIT Bhilai gets it's internet connection from NKN (National Knowledge Network), which is known for providing very high speed connection to IITs and other Govt institutions. There is also a high speed BSNL connection, as a backup. Completely uncapped connection is provided to the students. There are several claims that they were getting around 120 mbps over LAN connection in hostel. Systems like proxy are avoided to ensure maximum compatibility."],
+        "context": [""]
+        },
+        {"tag": "branch",
+        "patterns": ["What branches are available in IIT Bhilai?","Btech branches","Mtech branches","Branches avaiable in college","Branches in college"],
+        "responses": ["IIT Bhilai currently offers Computer Science and Engineering, Data Science and Artificial Intelligence, Electrical Engineering, Mechanical Engineering, Mechatronics branches for Btech and Computer Science and Engineering, Data Science and Artificial Intelligence, Electrical Engineering, Mechanical Engineering, Electric Vehicle Technology, Mechatronics for Mtech and Chemistry, Mathematics and Computing, Physics for Msc and Chemistry, Computer Science and Engineering, Data Science and Artificial Intelligence, Electrical Engineering, Electric Vehicle Technology, Liberal Arts, Mathematics, Mechanical Engineering, Mechatronics, Physics for Phd students respectively."],
+        "context": [""]
+        },
+        {"tag": "laptop",
+        "patterns": ["Do we need laptop in college","Is laptop necessary?","Should we buy laptops?","Laptop","What laptop should we buy?"],
+        "responses": ["IIT Bhilai institute's computer lab can be accessesd for studies and other needs.But its recommended to keep your personal laptop to do assignments, projects and many more things beacuse the institute PCs will be formatted before the exams or the lab might be restricted for use at times"],
+        "context": [""]
+        },
+        {"tag": "orientation",
+        "patterns": ["What is orientation?","What happens during Orientation?","Where does orientation happen?","Orientation","Students orientation"],
+        "responses": ["On the very first day freashers would complete their registration process(also the fee payment).Inauguaration session,ID cards,bankaccount opening,Education loan,essential shopping (in the campus itself) etc kind of things will also be done on this day.On the remaining days students will interact with departmental faculty members, will interact with the various students' club at IIT BHILAI, many guest lectures by some prominent personalities, a campus tour in which you will visit various labs, some workshops to make you familiar with surroundings, various team building activities will be held for fun and enjoyment , A cultural event is there(You would definetly enjoy it) ,Sports & Yoga is an important part of everyday schedule, for futher details refer to the student brochure in IIT Bhilai website."],
+        "context": [""]
+        }      
+
+   ]
+}
